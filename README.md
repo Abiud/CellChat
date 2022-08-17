@@ -6,10 +6,14 @@
 </p>
 
 ## Update
-May 07, 2022 (Version 1.4.0)
+Aug 06, 2022 (Version 1.5.0)
 
-We recently utilized CellChat to study the aging-induced signaling changes and thus updated some functions for better interpreting the inferred cell-cell communication. For the version history and detailed important changes, please see the [NEWS file](https://github.com/sqjin/CellChat/blob/master/NEWS.md).
+We have now presented our comparison framework for systematically detecting dysregulated cell-cell communication across biological conditions, and
+then utilized it to study the aging-induced signaling changes during skin wound healing. Our results not only present general communication rules and signaling mechanisms in wound healing associated with aging, but also provide a paradigm for other researchers to study cell-cell communication in other contexts. Please check out [our paper (Vu#, Jin#, Sun# et al., Cell Reports, 2022)](https://doi.org/10.1016/j.celrep.2022.111155) for the detailed methods and applications.
 
+For the version history and detailed important changes, please see the [NEWS file](https://github.com/sqjin/CellChat/blob/master/NEWS.md).
+
+We will release the tutorial of applying CellChat to spatial transcriptomics data soon. Keep tuned!
 
 ## Capabilities
 In addition to infer the intercellular communication from any given scRNA-seq data, CellChat provides functionality for further data exploration, analysis, and visualization. 
@@ -87,5 +91,20 @@ We use GitHub's [Pull Request](https://github.com/sqjin/CellChat/pulls) mechanis
 
 ## How to cite?
 Suoqin Jin et al., Inference and analysis of cell-cell communication using CellChat. Nature Communications, 12:1088 (2021). https://www.nature.com/articles/s41467-021-21246-9 
+
+
+<p align="center">
+  <a href="https://clustrmaps.com/site/1bpq2">
+     <img width="200"  src="https://clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=n&d=42WqeykSXznN_NSaBlpf6CtSXQxhqmIs6QusUsguFdY" />
+   </a>
+</p>
+<p align="center">
+  <a href="#">
+     <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fsqjin%2FCellChat&labelColor=%233499cc&countColor=%2370c168" />
+   </a>
+</p>
+
+
+
 
 
